@@ -11,7 +11,7 @@ This will setup the following for you for local development
 - Eureka Server
   - Spring boot apps (Identify, Catalog, Payment, Assist) communicate via TAS service registry. For local development, included [docker-compose.yml](docker-compose.yaml) starts up a local instance of Eureka discovery server on port 8761.
 - Local Tanzu Authorization Server
-- Commercial Spring Cloud Gateway
+- Local Tanzu Spring Cloud Gateway
 ```bash
 cd local-development
 docker compose up -d
